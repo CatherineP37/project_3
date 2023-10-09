@@ -7,8 +7,8 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive"
     ]
 
-CREDITS = Credentials.from_service_account_file('credits.json')
-SCOPED_CREDITS = CREDITS.with_scopes(SCOPE)
+CREDITS = Credentials.from_service_account_file('creds.json')
+SCOPED_CREDs = CREDITS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDITS)
 SHEET = GSPREAD_CLIENT.open('Appointments')
 
