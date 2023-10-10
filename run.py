@@ -7,12 +7,12 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive"
     ]
 
-CREDITS = Credentials.from_service_account_file('creds.json')
-SCOPED_CREDs = CREDITS.with_scopes(SCOPE)
-GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDITS)
-SHEET = GSPREAD_CLIENT.open('Appointments')
+CREDS = Credentials.from_service_account_file('creds.json')
+SCOPED_CREDS = CREDS.with_scopes(SCOPE)
+GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
+SHEET = GSPREAD_CLIENT.open('test')
 
-appointments = SHEET.worksheet('Appointments')
+appointments = SHEET.worksheet('test')
 
 data = appointments.get_all_values()
 
