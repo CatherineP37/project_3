@@ -13,16 +13,16 @@ while another_calculation is True:
 
     """
     def add(n1, n2):
-        n1 + n2
+        return n1 + n2
 
     def subtract(n1, n2):
-        n1 - n2
+        return n1 - n2
 
     def multiply(n1, n2):
-        n1 * n2
+        return n1 * n2
 
     def divide(n1, n2):
-        n1 / n2
+        return n1 / n2
 
     """
     This is the where the user enters the information for the calculation.
@@ -51,10 +51,10 @@ while another_calculation is True:
     else:
         print("Please enter +, -, * or /")
     
-     """
-     This if statement closes the calculator is the user enters 'no'.
+    """
+    This if statement closes the calculator is the user enters 'no'.
 
-     """
+    """
 
     new_calculation = input("Do you want to do another calculation? (yes/no) ")
     if new_calculation == 'no':
