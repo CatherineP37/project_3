@@ -1,4 +1,6 @@
 
+
+
 another_calculation = True
 
 while another_calculation is True:
@@ -14,12 +16,11 @@ while another_calculation is True:
     def divide(n1, n2):
         n1 / n2
 
-
     number_1 = int(input("Enter a number: "))
 
     operator = input("Choose an operator (+, -, *, /) ")
 
-    number_2 = int(input("Enter another number: "))
+    number_2 = int(input("Enter another number: "))  
 
     if operator == "+":
         print(number_1, "+", number_2, "=", add(number_1, number_2))
@@ -31,6 +32,8 @@ while another_calculation is True:
         print(number_1, "/", number_2, "=", divide(number_1, number_2))
     else:
         print("Please enter +, -, * or /")
+    
+     
 
     new_calculation = input("Do you want to do another calculation? (yes/no) ")
     if new_calculation == 'no':
