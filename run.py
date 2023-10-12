@@ -14,21 +14,23 @@ another_calculation = True
 
 while another_calculation is True:
 
-number_1 = int(input("Enter a number: "))
+    number_1 = int(input("Enter a number: "))
 
-operator = input("Choose an operator (+, -, *, /) ")
+    operator = input("Choose an operator (+, -, *, /) ")
 
-number_2 = int(input("Enter another number: "))
+    number_2 = int(input("Enter another number: "))
 
-if operator == "+":
-    print(number_1, "+", number_2, "=", add(number_1, number_2))
-if operator == "-":
-    print(number_1, "-", number_2, "=", subtract(number_1, number_2)) 
-if operator == "*":
-    print(number_1, "*", number_2, "=", multiply(number_1, number_2))
-if operator == "/":
-    print(number_1, "/", number_2, "=", divide(number_1, number_2))
+    if operator == "+":
+        print(number_1, "+", number_2, "=", add(number_1, number_2))
+    elif operator == "-":
+        print(number_1, "-", number_2, "=", subtract(number_1, number_2)) 
+    elif operator == "*":
+        print(number_1, "*", number_2, "=", multiply(number_1, number_2))
+    elif operator == "/":
+        print(number_1, "/", number_2, "=", divide(number_1, number_2))
+    else:
+        print("Please enter +, -, * or /")
 
-new_calculation = input("Do you want to do another calculation? (yes/no) ")
-if new_calculation = "no":
-    another_calculation = False
+    new_calculation = input("Do you want to do another calculation? (yes/no) ")
+    if new_calculation == 'no':
+        another_calculation = False
