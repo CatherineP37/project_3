@@ -1,7 +1,6 @@
 
 """
 This is a while loop to run code while the user wants to do a calculation.
-
 """
 
 another_calculation = True
@@ -31,9 +30,11 @@ while another_calculation is True:
 
     number_1 = int(input("Enter a number: "))
 
+    number_2 = int(input("Enter another number: "))  
+
     operator = input("Choose an operator (+, -, *, /) ")
 
-    number_2 = int(input("Enter another number: "))  
+    
 
     """
     This is an if statement for the different operators
@@ -49,7 +50,7 @@ while another_calculation is True:
     elif operator == "/":
         print(number_1, "/", number_2, "=", divide(number_1, number_2))
     else:
-        print("Please enter +, -, * or /")
+        input("Please enter one of the following + - *  / ")
     
     """
     This if statement closes the calculator is the user enters 'no'.
