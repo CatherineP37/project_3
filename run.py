@@ -1,6 +1,6 @@
 def calculation():
     number_1 = int(input("Enter a number: "))
-	operator = int(input("Choose an operator from the following: + - * / "))
+	operator = input("Choose an operator from the following: + - * / ")
 	number_2 = int(input("Enter another number: "))
 
     if operator == "+":
