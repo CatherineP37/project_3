@@ -1,7 +1,7 @@
 def calculation():
-    number_1 = int(input("Enter a number: "))
-    operator = input("Choose an operator from the following + - * /: ")
+    number_1 = int(input("Enter a number: "))    
     number_2 = int(input("Enter another number: "))
+    operator = input("Choose an operator from the following + - * /: ")
 
     if operator == "+":
         result = number_1 + number_2
@@ -17,7 +17,7 @@ def calculation():
         print(number_1, "/", number_2, "=", result)
     else:
         print("You have not entered a valid operator, please try again.")
-
+    another_calculation()
 
 def another_calculation():
     new_calculation = input("Do you want to do another calculation? yes/no ")
@@ -30,3 +30,4 @@ def another_calculation():
 
 
 calculation()
+
