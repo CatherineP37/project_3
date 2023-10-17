@@ -74,3 +74,5 @@ I took inspiration from the following projects:
 [Programiz](https://www.programiz.com/python-programming/examples/calculator)
 
 [Built in](https://builtin.com/software-engineering-perspectives/python-calculator)
+
+[DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3)
