@@ -17,7 +17,11 @@ def calculation():
         print(number_1, "/", number_2, "=", result)
     else:
         print("You have not entered a valid operator, please try again.")
+        calculation()
+
+
     another_calculation()
+
 
 def another_calculation():
     new_calculation = input("Do you want to do another calculation? yes/no ")
