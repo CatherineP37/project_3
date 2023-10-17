@@ -26,5 +26,7 @@ def another_calculation():
 		print("Thanks for the calculation.")
 	else:
 		another_calculation()
+        
+calculation()
 
 
