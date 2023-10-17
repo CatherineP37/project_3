@@ -18,4 +18,13 @@ def calculation():
 	else:
 	    print("You have not entered a valid operator, please try again.")
 
+def another_calculation():
+	new_calculation = input("Do you want to do another calculation? yes/no ")
+	if new_calculation == "yes":
+	    calculation()
+	elif new_calculation == "no":
+		print("Thanks for the calculation.")
+	else:
+		another_calculation()
+
 
