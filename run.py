@@ -28,7 +28,7 @@ def another_calculation():
     if new_calculation == "yes":
         calculation()
     elif new_calculation == "no":
-        print("Thanks for the calculation.")
+        print("Bye for now!")
     else:
         another_calculation()
 
