@@ -65,6 +65,14 @@ If the user entered an invalid operator, the game asked for them to enter anothe
 
 There is another issue with the error handling. Straight after the error message is given, the user is asked if they want to do another calculation.
 
+I forgot to add the brackets to the function names. This is now resolved.
+
+I left out the colon after "else". This is now resolved.
+
+The calculator was not doing the error message for the operator input straight after the operator input. To solve this I moved the operator input so it came last in the list of inputs.
+
+The calculator was asking if the user would like to do another calculation straight after the operator input error message. To solve this I placed a call for the another_calculation function in the else statement.
+
 ## Deployment
 
 ## Credits
