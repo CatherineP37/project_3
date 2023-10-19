@@ -16,7 +16,7 @@ This is a simple calculator that does addition, subtraction, multiplication and 
 
 ## Testing
 
-I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it. It flagged up some issues with not puting white space around operators and other similar issues. I fixed most of these issues.
+I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it. 
 
 ## Bugs
 
