@@ -39,9 +39,9 @@ This is a simple calculator that does addition, subtraction, multiplication and 
 
 ### First number input
 
-### Operator input
-
 ### Second number input
+
+### Operator input
 
 ### Calculation and result
 
