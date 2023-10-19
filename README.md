@@ -1,22 +1,38 @@
 # Simple Calculator
 
-This is a simple calculator that does addition, subtraction, multiplication and division.
+This is a simple calculator that does addition, subtraction, multiplication and division. It also has the option to do the calculation again and it gives an error message if the user doesn't enter a correct operator.
 
 ## Features
 
 ### First number input
 
+![First number input](images/first_number.png)
+
 ### Second number input
+
+![Second number input](images/second_number.png)
 
 ### Operator input
 
+![Operator input](images/operator.png)
+
 ### Calculation and result
 
+![Calculation and result](images/calculation.png)
+
 ### Option to do another calculation
+
+![Question](images/question.png)
+
+### Error handling
+
+![Error handling](images/error.png)
 
 ## Testing
 
 I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it. 
+
+![Test result](images/result.png)
 
 ## Bugs
 
