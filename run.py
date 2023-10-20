@@ -1,6 +1,13 @@
 def calculation():
-    number_1 = int(input("Enter a number: "))    
+    try:
+        number_1 = int(input("Enter a number: ")) 
+    except ValueError:
+        print("Error. Please enter a number.") 
+    try:   
     number_2 = int(input("Enter another number: "))
+    except ValueError: 
+        print("Error. Please enter a number.")
+        
     operator = input("Choose an operator from the following + - * /: ")
 
     if operator == "+":
