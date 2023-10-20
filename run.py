@@ -37,7 +37,7 @@ def another_calculation():
     elif new_calculation.lower() == "n":
         print("Bye for now!")
     else:
-        print("You have not entered a valid answer. Please enter y or n")
+        print("Invalid input. Please enter y or n")
         another_calculation()
 
 
