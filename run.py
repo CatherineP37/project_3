@@ -24,10 +24,10 @@ def calculation():
 
 
 def another_calculation():
-    new_calculation = input("Do you want to do another calculation? yes/no ")
-    if new_calculation == "yes":
+    new_calculation = input("Do you want to do another calculation? y / n ")
+    if new_calculation.lower == "y":
         calculation()
-    elif new_calculation == "no":
+    elif new_calculation.lower == "n":
         print("Bye for now!")
     else:
         another_calculation()
