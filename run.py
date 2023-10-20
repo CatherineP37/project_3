@@ -1,3 +1,8 @@
+"""
+This function does the calculations and prints them with the results
+
+"""
+
 def calculation():
     try:
         number_1 = int(input("Enter a number: ")) 
@@ -28,7 +33,10 @@ def calculation():
 
 
     another_calculation()
+"""
+This function allows the user to choose whether to do another function or not.
 
+"""
 
 def another_calculation():
     new_calculation = input("Do you want to do another calculation? y / n ")
