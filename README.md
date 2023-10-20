@@ -56,6 +56,8 @@ The calculator was not doing the error message for the operator input straight a
 
 The calculator was asking if the user would like to do another calculation straight after the operator input error message. To solve this I placed a call for the another_calculation function in the else statement.
 
+The lower() method wasn't working and I realised that this was because the brackets were missing. I then added the brackets.
+
 ## Deployment
 
 ## Credits
