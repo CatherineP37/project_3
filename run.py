@@ -52,5 +52,6 @@ def another_calculation():
         another_calculation()
 
 
+numbers()
 
 
