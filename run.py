@@ -1,7 +1,4 @@
-"""
-This function does the calculations and prints them with the results
 
-"""
 
 def add(number_1, number_2):
     return number_1 + number_2
@@ -25,6 +22,8 @@ def numbers():
     except ValueError: 
         print("You have not entered a number. Please enter a number.")
 
+def calculation():
+
     operator = input("Choose an operator from the following + - * /: ")
 
     if operator == "+":
@@ -45,10 +44,7 @@ def numbers():
 
 
     another_calculation()
-"""
-This function allows the user to choose whether to do another function or not.
 
-"""
 
 def another_calculation():
     new_calculation = input("Do you want to do another calculation? y / n ")
