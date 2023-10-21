@@ -10,20 +10,22 @@ def multiply(n1, n2):
 def divide(n1, n2):
     return n1 / n2
 
-def numbers():
+def number_one():
     try:
         global number_1
         number_1 = int(input("Enter a number: ")) 
     except ValueError:
         print("You have not entered a number. Please enter a number.")
-        numbers()
+        number_one()
+
+def number_two():
     try:  
         global number_2 
         number_2 = int(input("Enter another number: "))
         calculation()
     except ValueError: 
         print("You have not entered a number. Please enter a number.")
-        numbers()
+        number_two()
 
 def calculation():
 
@@ -48,7 +50,7 @@ def calculation():
 def another_calculation():
     new_calculation = input("Do you want to do another calculation? y / n ")
     if new_calculation.lower() == "y":
-        numbers()
+        number_one()
     elif new_calculation.lower() == "n":
         print("Bye for now!")
     else:
@@ -56,6 +58,6 @@ def another_calculation():
         another_calculation()
 
 
-numbers()
+number_one()
 
 
