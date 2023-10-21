@@ -62,6 +62,10 @@ After the error message for the operator was shown, the user was asked to enter 
 
 I left out the colon for several functions. This has now been corrected.
 
+The number_1 and number_2 variables were not originally global so I made them global.
+
+There was a spelling error on the word "subtract". I have now corrected this.
+
 ## Deployment
 
 ## Credits
