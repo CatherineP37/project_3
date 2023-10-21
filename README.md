@@ -58,6 +58,8 @@ The calculator was asking if the user would like to do another calculation strai
 
 The lower() method wasn't working and I realised that this was because the brackets were missing. I then added the brackets.
 
+After the error message for the operator was shown, the user was asked to enter a number instead of an operator. I realised this was because a number input was at the top of the function.
+
 ## Deployment
 
 ## Credits

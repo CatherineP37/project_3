@@ -3,6 +3,11 @@ This function does the calculations and prints them with the results
 
 """
 
+def add(number_1, number_2):
+    return number_1 + number_2
+
+def 
+
 def calculation():
     try:
         number_1 = int(input("Enter a number: ")) 
