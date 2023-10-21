@@ -60,6 +60,8 @@ The lower() method wasn't working and I realised that this was because the brack
 
 After the error message for the operator was shown, the user was asked to enter a number instead of an operator. I realised this was because a number input was at the top of the function. To solve this error I had to change the code dramatically.
 
+I left out the colon for several functions. This has now been corrected.
+
 ## Deployment
 
 ## Credits
