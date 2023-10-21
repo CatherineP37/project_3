@@ -30,7 +30,7 @@ def calculation():
     if operator == "+":        
         print(number_1, "+", number_2, "=", add(number_1, number_2))
     elif operator == "-":     
-        print(number_1, "-", number_2, "=", subract(number_1, number_2))
+        print(number_1, "-", number_2, "=", subtract(number_1, number_2))
     elif operator == "*":        
         print(number_1, "*", number_2, "=", multiply(number_1, number_2))
     elif operator == "/":  
