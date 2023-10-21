@@ -17,6 +17,7 @@ def numbers():
         print("You have not entered a number. Please enter a number.") 
     try:   
         number_2 = int(input("Enter another number: "))
+        calculation()
     except ValueError: 
         print("You have not entered a number. Please enter a number.")
 
@@ -43,7 +44,7 @@ def calculation():
 def another_calculation():
     new_calculation = input("Do you want to do another calculation? y / n ")
     if new_calculation.lower() == "y":
-        calculation()
+        numbers()
     elif new_calculation.lower() == "n":
         print("Bye for now!")
     else:
@@ -51,5 +52,5 @@ def another_calculation():
         another_calculation()
 
 
-calculation()
+
 
