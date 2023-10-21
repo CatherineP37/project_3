@@ -1,16 +1,14 @@
+def add(n1, n2):
+    return n1 + n2
 
+def subtract(n1, n2)
+    return n1 - n2
 
-def add(number_1, number_2):
-    return number_1 + number_2
+def multiply(n1, n2)
+    return n1 * n2
 
-def subtract(number_1, number_2)
-    return number_1 - number_2
-
-def multiply(number_1, number_2)
-    return number_1 * number_2
-
-def divide(number_1, number_2)
-    return number_1 / number_2
+def divide(n1, n2)
+    return n1 / n2
 
 def numbers():
     try:
@@ -26,18 +24,14 @@ def calculation():
 
     operator = input("Choose an operator from the following + - * /: ")
 
-    if operator == "+":
-        result = number_1 + number_2
-        print(number_1, "+", number_2, "=", result)
-    elif operator == "-":
-        result = number_1 - number_2
-        print(number_1, "-", number_2, "=", result)
-    elif operator == "*":
-        result = number_1 * number_2
-        print(number_1, "*", number_2, "=", result)
-    elif operator == "/":
-        result = number_1 / number_2
-        print(number_1, "/", number_2, "=", result)
+    if operator == "+":        
+        print(number_1, "+", number_2, "=", add(number_1, number_2))
+    elif operator == "-":     
+        print(number_1, "-", number_2, "=", subract(number_1, number_2))
+    elif operator == "*":        
+        print(number_1, "*", number_2, "=", multiply(number_1, number_2))
+    elif operator == "/":  
+        print(number_1, "/", number_2, "=", divide(number_1, number_2))
     else:
         print("You have not entered a valid operator, please try again.")
         calculation()
