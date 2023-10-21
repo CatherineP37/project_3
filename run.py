@@ -12,10 +12,12 @@ def divide(n1, n2):
 
 def numbers():
     try:
+        global number_1
         number_1 = int(input("Enter a number: ")) 
     except ValueError:
         print("You have not entered a number. Please enter a number.") 
-    try:   
+    try:  
+        global number_2 
         number_2 = int(input("Enter another number: "))
         calculation()
     except ValueError: 
