@@ -22,6 +22,7 @@ def numbers():
         calculation()
     except ValueError: 
         print("You have not entered a number. Please enter a number.")
+        numbers()
 
 def calculation():
 
