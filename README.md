@@ -66,6 +66,8 @@ The number_1 and number_2 variables were not originally global so I made them gl
 
 There was a spelling error on the word "subtract". I have now corrected this.
 
+The calculator was closing after an error message for the first number input. I solved this by adding a call to the numbers() function after the number input error messages.
+
 ## Deployment
 
 ## Credits
