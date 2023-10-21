@@ -15,7 +15,7 @@ def multiply(number_1, number_2)
 def divide(number_1, number_2)
     return number_1 / number_2
 
-def calculation():
+def numbers():
     try:
         number_1 = int(input("Enter a number: ")) 
     except ValueError:
