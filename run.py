@@ -14,6 +14,7 @@ def number_one():
     try:
         global number_1
         number_1 = int(input("Enter a number: ")) 
+        number_two()
     except ValueError:
         print("You have not entered a number. Please enter a number.")
         number_one()
