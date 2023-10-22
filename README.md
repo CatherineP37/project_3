@@ -68,6 +68,8 @@ There was a spelling error on the word "subtract". I have now corrected this.
 
 The calculator was closing after an error message for the first number input. I solved this by adding a call to the numbers() function after the number input error messages.
 
+The calculator was closing after asking for the first number. I solved this by adding a call to the number_two() function in the number_one() function.
+
 ## Deployment
 
 ## Credits
