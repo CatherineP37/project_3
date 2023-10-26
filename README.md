@@ -36,39 +36,39 @@ I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it
 
 ## Bugs
 
-There was an indentation problem but it was resolved.
+- There was an indentation problem but it was resolved.
 
-There was also a problem with syntax. That was resolved by replacing a = with ==.
+- There was also a problem with syntax. That was resolved by replacing a = with ==.
 
-The calculation part of the project is not working. It's showing the word "none" instead of the result of the calculation. This was resolved by adding the word "return" to the functions.
+- The calculation part of the project is not working. It's showing the word "none" instead of the result of the calculation. This was resolved by adding the word "return" to the functions.
 
-The calculator doesn't close when the user replies "no" to the question about whether they want to do another calculation. This problem has been resolved.
+- The calculator doesn't close when the user replies "no" to the question about whether they want to do another calculation. This problem has been resolved.
 
-If the user entered an invalid operator, the game asked for them to enter another number instead of giving the error message straight away. The error message came after the user entered the second number. This issue was resolved by moving the input statement for the second number so that it comes before the operator input statement. 
+- If the user entered an invalid operator, the game asked for them to enter another number instead of giving the error message straight away. The error message came after the user entered the second number. This issue was resolved by moving the input statement for the second number so that it comes before the operator input statement. 
 
-There is another issue with the error handling. Straight after the error message is given, the user is asked if they want to do another calculation.
+- There is another issue with the error handling. Straight after the error message is given, the user is asked if they want to do another calculation.
 
-I forgot to add the brackets to the function names. This is now resolved.
+- I forgot to add the brackets to the function names. This is now resolved.
 
-I left out the colon after "else". This is now resolved.
+- I left out the colon after "else". This is now resolved.
 
-The calculator was not doing the error message for the operator input straight after the operator input. To solve this I moved the operator input so it came last in the list of inputs.
+- The calculator was not doing the error message for the operator input straight after the operator input. To solve this I moved the operator input so it came last in the list of inputs.
 
-The calculator was asking if the user would like to do another calculation straight after the operator input error message. To solve this I placed a call for the another_calculation function in the else statement.
+- The calculator was asking if the user would like to do another calculation straight after the operator input error message. To solve this I placed a call for the another_calculation function in the else statement.
 
-The lower() method wasn't working and I realised that this was because the brackets were missing. I then added the brackets.
+- The lower() method wasn't working and I realised that this was because the brackets were missing. I then added the brackets.
 
-After the error message for the operator was shown, the user was asked to enter a number instead of an operator. I realised this was because a number input was at the top of the function. To solve this error I had to change the code dramatically.
+- After the error message for the operator was shown, the user was asked to enter a number instead of an operator. I realised this was because a number input was at the top of the function. To solve this error I had to change the code dramatically.
 
-I left out the colon for several functions. This has now been corrected.
+- I left out the colon for several functions. This has now been corrected.
 
-The number_1 and number_2 variables were not originally global so I made them global.
+- The number_1 and number_2 variables were not originally global so I made them global.
 
-There was a spelling error on the word "subtract". I have now corrected this.
+- There was a spelling error on the word "subtract". I have now corrected this.
 
-The calculator was closing after an error message for the first number input. I solved this by adding a call to the numbers() function after the number input error messages.
+- The calculator was closing after an error message for the first number input. I solved this by adding a call to the numbers() function after the number input error messages.
 
-The calculator was closing after asking for the first number. I solved this by adding a call to the number_two() function in the number_one() function.
+- The calculator was closing after asking for the first number. I solved this by adding a call to the number_two() function in the number_one() function.
 
 ## Deployment
 
