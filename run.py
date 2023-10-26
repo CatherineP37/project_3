@@ -21,9 +21,9 @@ def number_one():
  ##    #  #     #  #        #        #     #  #        #     #     #     #     #  #    #  
  #######  #     #  #######  #######  #######  #######  #     #     #     #######  #    ## 
   """                                                                                        
-)
+        )
         global number_1
-        number_1 = int(input("Enter a number: ")) 
+        number_1 = int(input("Enter a number:\n")) 
         number_two()
     except ValueError:
         print("You have not entered a number. Please enter a number.")
@@ -32,7 +32,7 @@ def number_one():
 def number_two():
     try:  
         global number_2 
-        number_2 = int(input("Enter another number: "))
+        number_2 = int(input("Enter another number:\n"))
         calculation()
     except ValueError: 
         print("You have not entered a number. Please enter a number.")
@@ -40,7 +40,7 @@ def number_two():
 
 def calculation():
 
-    operator = input("Choose an operator from the following + - * /: ")
+    operator = input("Choose an operator from the following + - * /:\n")
 
     if operator == "+":        
         print(number_1, "+", number_2, "=", add(number_1, number_2))
@@ -59,7 +59,7 @@ def calculation():
 
 
 def another_calculation():
-    new_calculation = input("Do you want to do another calculation? y / n ")
+    new_calculation = input("Do you want to do another calculation? y / n\n")
     if new_calculation.lower() == "y":
         number_one()
     elif new_calculation.lower() == "n":
