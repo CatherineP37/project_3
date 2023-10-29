@@ -6,6 +6,8 @@ This is a simple calculator that does addition, subtraction, multiplication and 
 
 ### ASCII art
 
+![ASCII art](images/art.png)
+
 ### First number input
 
 ![First number input](images/first_number.png)
