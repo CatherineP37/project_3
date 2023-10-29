@@ -11,7 +11,7 @@ def divide(n1, n2):
     return n1 / n2
 
 def number_one():
-    print("Calculator")
+    print("Calculator\n")
     try:
         global number_1
         number_1 = int(input("Enter a number:\n")) 
