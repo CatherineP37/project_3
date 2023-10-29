@@ -80,9 +80,11 @@ There are no current bugs in the code. Here are some of the bugs that occurred d
 
 ## Deployment
 
-To deploy the project I created a new Heroku app and set the buildbacks to Python and NodeJS. Then I linked the Heroku app to the repository and deployed the app.
+To deploy the project I created a new Heroku app and set the buildbacks to Python and NodeJS. Then I linked the Heroku app to the repository and deployed the app. The project was deployed using Code Institute's mock terminal for Heroku.
 
 ## Credits
+
+- Code Institute provided the deployment terminal
 
 I took inspiration from the following projects:
 
