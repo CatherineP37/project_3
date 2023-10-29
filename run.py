@@ -32,18 +32,7 @@ def divide(n1, n2):
     record_history(n1 , n2)
     return n1 / n2
 
-def number_one():
-    print(
-        ###
-         #####                                                                
-#     #   ##   #       ####  #    # #        ##   #####  ####  #####  
-#        #  #  #      #    # #    # #       #  #    #   #    # #    # 
-#       #    # #      #      #    # #      #    #   #   #    # #    # 
-#       ###### #      #      #    # #      ######   #   #    # #####  
-#     # #    # #      #    # #    # #      #    #   #   #    # #   #  
- #####  #    # ######  ####   ####  ###### #    #   #    ####  #    # 
-     ###                                                               
-     )
+def number_one():    
     while True:
         try:
             global number_1
@@ -86,7 +75,11 @@ def another_calculation():
     if new_calculation.lower() == "y":
         number_one()
     elif new_calculation.lower() == "n":
-        print("Bye for now!")
+        old_calculations = input("Do you want to show your old calculations? y / n\n")        
+        if old_calculations == "y":   
+           history()  
+        else:       
+            print("Bye for now!")
     else:
         print("Invalid input. Please enter y or n")
         another_calculation()
