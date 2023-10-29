@@ -74,6 +74,8 @@ I tested the code with CI Python Linter and corrected all the errors with it. Th
 
 - The calculator was closing after asking for the first number. I solved this by adding a call to the number_two function in the number_one function.
 
+- There was an issue about where to put the ASCII art because it was showing whenever the user did a new calculation and I didn't want that. I wanted the ASCII art to show only at the beginning of a session so I removed it from the number_one function and added it at the very beginning of the code.
+
 ## Deployment
 
 ## Credits
