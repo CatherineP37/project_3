@@ -1,6 +1,10 @@
 # Calculator
 
-This is a simple calculator that does addition, subtraction, multiplication and division. It also has the option to do the calculation again and it gives an error message if the user doesn't enter correct inputs.
+This is a simple calculator that does addition, subtraction, multiplication and division for the user. It also has the option to do the calculation again and it gives an error message if the user doesn't enter correct inputs.
+
+## User flow diagram
+
+![User flow diagram](images/diagram.png)
 
 ## Features
 
