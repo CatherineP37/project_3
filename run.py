@@ -41,8 +41,7 @@ def calculation():
     elif operator == "/":  
         print(number_1, "/", number_2, "=", divide(number_1, number_2))
     else:
-        print("You have not entered a valid operator, please try again.")
-        calculation()
+        print("You have not entered a valid operator, please try again.")        
 
 
     another_calculation()
