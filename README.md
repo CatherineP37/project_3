@@ -90,7 +90,7 @@ To deploy the project I created a new Heroku app and set the buildbacks to Pytho
 
 - Code Institute provided the deployment terminal
 
-I took inspiration from the following projects:
+- I took inspiration from the following projects:
 
 [Programiz](https://www.programiz.com/python-programming/examples/calculator)
 
