@@ -32,26 +32,23 @@ def divide(n1, n2):
     record_history(n1 , n2)
     return n1 / n2
 
-def number_one():    
-    while True:
-        try:
-            global number_1
-            number_1 = int(input("Enter a number:\n")) 
-            number_two()
-        except ValueError:
-            print("You have not entered a number. Please enter a number.")
+def number_one(): 
+    try:
+        global number_1
+        number_1 = int(input("Enter a number:\n")) 
+        number_two()
+    except ValueError:
+        print("You have not entered a number. Please enter a number.")
 
-def number_two():
-    while True:
-        try:  
-            global number_2 
-            number_2 = int(input("Enter another number:\n"))
-            calculation()
-        except ValueError: 
-            print("You have not entered a number. Please enter a number.")
+def number_two():   
+    try:  
+        global number_2 
+        number_2 = int(input("Enter another number:\n"))
+        calculation()
+    except ValueError: 
+        print("You have not entered a number. Please enter a number.")
 
 def calculation():
-
     operator = input("Choose an operator from the following + - * /:\n")
 
     if operator == "+":        
