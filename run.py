@@ -7,11 +7,7 @@ def record_history(num1, num2):
 
 def history():
     if calculations == []:
-        print("No past calculations to show")
-    elif conditon:
-        print(calculations[-1])
-        print(calculations[-2])
-        print(calculations[-3])
+        print("No past calculations to show")    
     else:
         for i in calculations:
             print(i)
