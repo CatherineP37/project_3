@@ -60,7 +60,7 @@ I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it
 
 - The calculator was asking if the user would like to do another calculation straight after the operator input error message. To solve this I placed a call for the another_calculation function in the else statement.
 
-- The lower() method wasn't working and I realised that this was because the brackets were missing. I then added the brackets.
+- The lower method wasn't working and I realised that this was because the brackets were missing. I then added the brackets.
 
 - After the error message for the operator was shown, the user was asked to enter a number instead of an operator. I realised this was because a number input was at the top of the function. To solve this error I had to change the code dramatically.
 
@@ -70,9 +70,9 @@ I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it
 
 - There was a spelling error on the word "subtract". I have now corrected this.
 
-- The calculator was closing after an error message for the first number input. I solved this by adding a call to the numbers() function after the number input error messages.
+- The calculator was closing after an error message for the first number input. I solved this by adding a call to the numbers function after the number input error messages.
 
-- The calculator was closing after asking for the first number. I solved this by adding a call to the number_two() function in the number_one() function.
+- The calculator was closing after asking for the first number. I solved this by adding a call to the number_two function in the number_one function.
 
 ## Deployment
 
