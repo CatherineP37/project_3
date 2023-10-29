@@ -1,8 +1,10 @@
-# Simple Calculator
+# Calculator
 
-This is a simple calculator that does addition, subtraction, multiplication and division. It also has the option to do the calculation again and it gives an error message if the user doesn't enter a correct operator.
+This is a simple calculator that does addition, subtraction, multiplication and division. It also has the option to do the calculation again and it gives an error message if the user doesn't enter correct inputs.
 
 ## Features
+
+### ASCII art
 
 ### First number input
 
