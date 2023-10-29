@@ -40,17 +40,19 @@ I tested the code with CI Python Linter and corrected all the errors with it. Th
 
 ## Bugs
 
+There are no current bugs in the code. Here are some of the bugs that occurred during the development:
+
 - There was an indentation problem but it was resolved.
 
 - There was also a problem with syntax. That was resolved by replacing a = with ==.
 
-- The calculation part of the project is not working. It's showing the word "none" instead of the result of the calculation. This was resolved by adding the word "return" to the functions.
+- The calculation part of the project was not working. It was showing the word "none" instead of the result of the calculation. This was resolved by adding the word "return" to the functions.
 
-- The calculator doesn't close when the user replies "no" to the question about whether they want to do another calculation. This problem has been resolved.
+- The calculator didn't close when the user replied "no" to the question about whether they wanted to do another calculation. This problem has been resolved.
 
 - If the user entered an invalid operator, the game asked for them to enter another number instead of giving the error message straight away. The error message came after the user entered the second number. This issue was resolved by moving the input statement for the second number so that it comes before the operator input statement. 
 
-- There is another issue with the error handling. Straight after the error message is given, the user is asked if they want to do another calculation.
+- There was another issue with the error handling. Straight after the error message was given, the user was asked if they want to do another calculation.
 
 - I forgot to add the brackets to the function names. This is now resolved.
 
@@ -77,6 +79,8 @@ I tested the code with CI Python Linter and corrected all the errors with it. Th
 - There was an issue about where to put the ASCII art because it was showing whenever the user did a new calculation and I didn't want that. I wanted the ASCII art to show only at the beginning of a session so I removed it from the number_one function and added it at the very beginning of the code.
 
 ## Deployment
+
+To deploy the project I created a new Heroku app and set the buildbacks to Python and NodeJS. Then I linked the Heroku app to the repository and deployed the app.
 
 ## Credits
 
