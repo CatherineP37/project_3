@@ -34,7 +34,7 @@ This is a simple calculator that does addition, subtraction, multiplication and 
 
 ## Testing
 
-I tested the code with Pyton Syntax Checker PEP8 and had no major issues with it. 
+I tested the code with CI Python Linter and corrected all the errors with it. The code then passed with no errors. 
 
 ![Test result](images/result.png)
 
