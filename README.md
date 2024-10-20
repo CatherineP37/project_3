@@ -6,6 +6,14 @@ This is a simple calculator that does addition, subtraction, multiplication and 
 
 ![User flow diagram](images/diagram.png)
 
+## Film
+
+
+
+https://github.com/user-attachments/assets/24a7a542-90af-4073-9cba-ade8aa74de0c
+
+
+
 ## Features
 
 ### ASCII art
